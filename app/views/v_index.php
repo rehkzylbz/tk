@@ -52,7 +52,7 @@
                                 <select class="form-select" id="company_name" name="company_name">
                                     <option value="Fast">Быстрая</option>
                                     <option value="Slow">Медленная</option>
-                                    <option value="Other" disabled>Другая</option>
+                                    <option value="Other">Другая</option>
                                 </select>
                             </div>
                         </div>
