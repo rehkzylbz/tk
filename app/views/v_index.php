@@ -11,7 +11,7 @@
             <h1>Запрос в транспортные компании</h1>
             <h5 class="my-3">Список отправлений:</h5>
             <?php foreach ($data['packs'] as $key => $pack) { ?>
-                <form id="data_form_<?php echo $key; ?>" method="POST" class="data_form row border-bottom border-primary mb-5">                    
+                <form id="data_form_<?php echo $key; ?>" method="POST" class="data_form row border-bottom border-primary mb-4">                    
                     <div class="col-1"><?php echo $key; ?></div>
                     <div class="error_box alert alert-danger d-none col py-1" role="alert" id="error_box_<?php echo $key; ?>"></div>
                     <div class="result_box alert alert-success d-none col py-1" role="alert" id="result_box_<?php echo $key; ?>"></div>
